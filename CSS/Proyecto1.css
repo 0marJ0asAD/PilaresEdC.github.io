@@ -1,0 +1,766 @@
+@charset "UTF-8";
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  font-family: monospace;
+}
+
+/* Responsive Design */
+@media (max-width: 575px) {
+  .Encabezado-P1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Encabezado-P1 .Caja1-ImagenyTitulo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Encabezado-P1 .Caja1-ImagenyTitulo .Caja1-Imagen {
+    width: 100vw;
+  }
+  .Encabezado-P1 .Caja1-ImagenyTitulo .Caja1-Imagen img {
+    height: 60vw;
+    width: 100vw;
+  }
+  .Encabezado-P1 .Caja1-ImagenyTitulo .Caja1-Titulo {
+    position: absolute;
+    margin-top: 25vw;
+    background-color: black;
+    padding: 1.5vw;
+  }
+  .Encabezado-P1 .Caja1-ImagenyTitulo .Caja1-Titulo h1 {
+    font-size: 4.5vw;
+    color: white;
+    text-transform: uppercase;
+  }
+  .Encabezado-P1 .Caja1-SubtituloyDescripción {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Encabezado-P1 .Caja1-SubtituloyDescripción .Caja1-Subtitulo {
+    padding: 1.5vw;
+  }
+  .Encabezado-P1 .Caja1-SubtituloyDescripción .Caja1-Subtitulo b {
+    font-size: 4.5vw;
+  }
+  .Encabezado-P1 .Caja1-SubtituloyDescripción .Caja1-Descripción {
+    padding: 1.5vw;
+  }
+  .Encabezado-P1 .Caja1-SubtituloyDescripción .Caja1-Descripción em {
+    font-size: 4.5vw;
+  }
+  .Menu-P1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Menu-P1 .Caja2-ImagenyTitulo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Menu-P1 .Caja2-ImagenyTitulo .Caja2-Imagen {
+    width: 100vw;
+  }
+  .Menu-P1 .Caja2-ImagenyTitulo .Caja2-Imagen img {
+    height: 60vw;
+    width: 100vw;
+  }
+  .Menu-P1 .Caja2-ImagenyTitulo .Caja2-Titulo {
+    position: absolute;
+    margin-top: 20vw;
+    padding: 1.5vw;
+  }
+  .Menu-P1 .Caja2-ImagenyTitulo .Caja2-Titulo h1 {
+    font-size: 4.5vw;
+    color: white;
+    text-transform: uppercase;
+  }
+  .Menu-P1 .Caja2-SubtituloyDescripción {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Menu-P1 .Caja2-SubtituloyDescripción .Caja2-Subtitulo {
+    padding: 1.5vw;
+  }
+  .Menu-P1 .Caja2-SubtituloyDescripción .Caja2-Subtitulo b {
+    font-size: 4.5vw;
+  }
+  .Menu-P1 .Caja2-SubtituloyDescripción .Caja2-Descripción {
+    padding: 1.5vw;
+  }
+  .Menu-P1 .Caja2-SubtituloyDescripción .Caja2-Descripción em {
+    font-size: 4.5vw;
+  }
+  .Menu-P1 .Caja3-ImagenyTitulo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Menu-P1 .Caja3-ImagenyTitulo .Caja3-Imagen {
+    width: 100vw;
+  }
+  .Menu-P1 .Caja3-ImagenyTitulo .Caja3-Imagen img {
+    height: 60vw;
+    width: 100vw;
+  }
+  .Menu-P1 .Caja3-ImagenyTitulo .Caja3-Titulo {
+    position: absolute;
+    margin-top: 23vw;
+    padding: 1.5vw;
+  }
+  .Menu-P1 .Caja3-ImagenyTitulo .Caja3-Titulo h1 {
+    font-size: 4.5vw;
+    color: white;
+    text-transform: uppercase;
+  }
+  .Menu-P1 .Caja3-SubtituloyDescripción {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Menu-P1 .Caja3-SubtituloyDescripción .Caja3-Subtitulo {
+    padding: 1.5vw;
+  }
+  .Menu-P1 .Caja3-SubtituloyDescripción .Caja3-Subtitulo b {
+    font-size: 4.5vw;
+  }
+  .Menu-P1 .Caja3-SubtituloyDescripción .Caja3-Descripción {
+    padding: 1.5vw;
+  }
+  .Menu-P1 .Caja3-SubtituloyDescripción .Caja3-Descripción em {
+    font-size: 4.5vw;
+  }
+  .Menu-P1 .Caja4-ImagenyTitulo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Menu-P1 .Caja4-ImagenyTitulo .Caja4-Imagen {
+    width: 100vw;
+  }
+  .Menu-P1 .Caja4-ImagenyTitulo .Caja4-Imagen img {
+    height: 60vw;
+    width: 100vw;
+  }
+  .Menu-P1 .Caja4-ImagenyTitulo .Caja4-Titulo {
+    position: absolute;
+    margin-top: 30vw;
+    background-color: black;
+    padding: 1.5vw;
+  }
+  .Menu-P1 .Caja4-ImagenyTitulo .Caja4-Titulo h1 {
+    font-size: 4.5vw;
+    color: white;
+    text-transform: uppercase;
+  }
+  .PieDePágina-Contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    padding: 5vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Texto {
+    padding: 2.5vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Texto small {
+    font-size: 5.5vw;
+    color: white;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .LinkedIn-RS {
+    background-color: white;
+    padding: 2.5vw;
+    border-radius: 50vw;
+    border: 1.5vw solid aqua;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .LinkedIn-RS img {
+    height: 10vw;
+    width: 10vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .LinkedIn-RS:hover {
+    background-color: aqua;
+    transition: 2s;
+    border-radius: 50vw;
+    border: 1.5vw solid white;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .GitHub-RS {
+    background-color: white;
+    padding: 2.5vw;
+    border-radius: 50vw;
+    border: 1.5vw solid gray;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .GitHub-RS img {
+    height: 10vw;
+    width: 10vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .GitHub-RS:hover {
+    background-color: gray;
+    transition: 2s;
+    border-radius: 50vw;
+    border: 1.5vw solid white;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Twitter-RS {
+    background-color: white;
+    padding: 2.5vw;
+    border-radius: 50vw;
+    border: 1.5vw solid blue;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Twitter-RS img {
+    height: 10vw;
+    width: 10vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Twitter-RS:hover {
+    background-color: blue;
+    transition: 2s;
+    border-radius: 50vw;
+    border: 1.5vw solid white;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Gmail-RS {
+    background-color: white;
+    padding: 2.5vw;
+    border-radius: 50vw;
+    border: 1.5vw solid orange;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Gmail-RS img {
+    height: 10vw;
+    width: 10vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Gmail-RS:hover {
+    background-color: orange;
+    transition: 2s;
+    border-radius: 50vw;
+    border: 1.5vw solid white;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .Encabezado-P1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Encabezado-P1 .Caja1-ImagenyTitulo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Encabezado-P1 .Caja1-ImagenyTitulo .Caja1-Imagen {
+    width: 100vw;
+  }
+  .Encabezado-P1 .Caja1-ImagenyTitulo .Caja1-Imagen img {
+    height: 60vw;
+    width: 100vw;
+  }
+  .Encabezado-P1 .Caja1-ImagenyTitulo .Caja1-Titulo {
+    position: absolute;
+    margin-top: 25vw;
+    background-color: black;
+    padding: 10px;
+  }
+  .Encabezado-P1 .Caja1-ImagenyTitulo .Caja1-Titulo h1 {
+    font-size: 4.5vw;
+    color: white;
+    text-transform: uppercase;
+  }
+  .Encabezado-P1 .Caja1-SubtituloyDescripción {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Encabezado-P1 .Caja1-SubtituloyDescripción .Caja1-Subtitulo {
+    padding: 10px;
+  }
+  .Encabezado-P1 .Caja1-SubtituloyDescripción .Caja1-Subtitulo b {
+    font-size: 2.5vw;
+  }
+  .Encabezado-P1 .Caja1-SubtituloyDescripción .Caja1-Descripción {
+    padding: 10px;
+  }
+  .Encabezado-P1 .Caja1-SubtituloyDescripción .Caja1-Descripción em {
+    font-size: 2.5vw;
+  }
+  .Menu-P1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Menu-P1 .Caja2-ImagenyTitulo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Menu-P1 .Caja2-ImagenyTitulo .Caja2-Imagen {
+    width: 100vw;
+  }
+  .Menu-P1 .Caja2-ImagenyTitulo .Caja2-Imagen img {
+    height: 60vw;
+    width: 100vw;
+  }
+  .Menu-P1 .Caja2-ImagenyTitulo .Caja2-Titulo {
+    position: absolute;
+    margin-top: 20vw;
+    padding: 10px;
+  }
+  .Menu-P1 .Caja2-ImagenyTitulo .Caja2-Titulo h1 {
+    font-size: 4.5vw;
+    color: white;
+    text-transform: uppercase;
+  }
+  .Menu-P1 .Caja2-SubtituloyDescripción {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Menu-P1 .Caja2-SubtituloyDescripción .Caja2-Subtitulo {
+    padding: 10px;
+  }
+  .Menu-P1 .Caja2-SubtituloyDescripción .Caja2-Subtitulo b {
+    font-size: 2.5vw;
+  }
+  .Menu-P1 .Caja2-SubtituloyDescripción .Caja2-Descripción {
+    padding: 10px;
+  }
+  .Menu-P1 .Caja2-SubtituloyDescripción .Caja2-Descripción em {
+    font-size: 2.5vw;
+  }
+  .Menu-P1 .Caja3-ImagenyTitulo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Menu-P1 .Caja3-ImagenyTitulo .Caja3-Imagen {
+    width: 100vw;
+  }
+  .Menu-P1 .Caja3-ImagenyTitulo .Caja3-Imagen img {
+    height: 60vw;
+    width: 100vw;
+  }
+  .Menu-P1 .Caja3-ImagenyTitulo .Caja3-Titulo {
+    position: absolute;
+    margin-top: 23vw;
+    padding: 10px;
+  }
+  .Menu-P1 .Caja3-ImagenyTitulo .Caja3-Titulo h1 {
+    font-size: 4.5vw;
+    color: white;
+    text-transform: uppercase;
+  }
+  .Menu-P1 .Caja3-SubtituloyDescripción {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Menu-P1 .Caja3-SubtituloyDescripción .Caja3-Subtitulo {
+    padding: 10px;
+  }
+  .Menu-P1 .Caja3-SubtituloyDescripción .Caja3-Subtitulo b {
+    font-size: 2.5vw;
+  }
+  .Menu-P1 .Caja3-SubtituloyDescripción .Caja3-Descripción {
+    padding: 7px;
+  }
+  .Menu-P1 .Caja3-SubtituloyDescripción .Caja3-Descripción em {
+    font-size: 2.5vw;
+  }
+  .Menu-P1 .Caja4-ImagenyTitulo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Menu-P1 .Caja4-ImagenyTitulo .Caja4-Imagen {
+    width: 100vw;
+  }
+  .Menu-P1 .Caja4-ImagenyTitulo .Caja4-Imagen img {
+    height: 60vw;
+    width: 100vw;
+  }
+  .Menu-P1 .Caja4-ImagenyTitulo .Caja4-Titulo {
+    position: absolute;
+    margin-top: 30vw;
+    background-color: black;
+    padding: 10px;
+  }
+  .Menu-P1 .Caja4-ImagenyTitulo .Caja4-Titulo h1 {
+    font-size: 4.5vw;
+    color: white;
+    text-transform: uppercase;
+  }
+  .PieDePágina-Contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    padding: 10px;
+  }
+  .PieDePágina-Contacto .RedesSociales-Texto {
+    padding: 10px;
+  }
+  .PieDePágina-Contacto .RedesSociales-Texto small {
+    font-size: 25px;
+    color: white;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .LinkedIn-RS {
+    background-color: white;
+    padding: 10px;
+    border-radius: 75px;
+    border: 5px solid aqua;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .LinkedIn-RS img {
+    height: 50px;
+    width: 50px;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .LinkedIn-RS img:hover {
+    transform: scale(1.1);
+    transition: 2s;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .LinkedIn-RS:hover {
+    background-color: aqua;
+    transition: 2s;
+    border-radius: 75px;
+    border: 5px solid white;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .GitHub-RS {
+    background-color: white;
+    padding: 10px;
+    border-radius: 75px;
+    border: 5px solid gray;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .GitHub-RS img {
+    height: 50px;
+    width: 50px;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .GitHub-RS img:hover {
+    transform: scale(1.1);
+    transition: 2s;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .GitHub-RS:hover {
+    background-color: gray;
+    transition: 2s;
+    border-radius: 75px;
+    border: 5px solid white;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Twitter-RS {
+    background-color: white;
+    padding: 10px;
+    border-radius: 75px;
+    border: 5px solid blue;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Twitter-RS img {
+    height: 50px;
+    width: 50px;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Twitter-RS img:hover {
+    transform: scale(1.1);
+    transition: 2s;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Twitter-RS:hover {
+    background-color: blue;
+    transition: 2s;
+    border-radius: 75px;
+    border: 5px solid white;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Gmail-RS {
+    background-color: white;
+    padding: 10px;
+    border-radius: 75px;
+    border: 5px solid orange;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Gmail-RS img {
+    height: 50px;
+    width: 50px;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Gmail-RS img:hover {
+    transform: scale(1.1);
+    transition: 2s;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Gmail-RS:hover {
+    background-color: orange;
+    transition: 2s;
+    border-radius: 75px;
+    border: 5px solid white;
+  }
+}
+@media (min-width: 769px) {
+  .Encabezado-P1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Encabezado-P1 .Caja1-ImagenyTitulo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Encabezado-P1 .Caja1-ImagenyTitulo .Caja1-Imagen {
+    width: 100vw;
+  }
+  .Encabezado-P1 .Caja1-ImagenyTitulo .Caja1-Imagen img {
+    height: 60vw;
+    width: 100vw;
+  }
+  .Encabezado-P1 .Caja1-ImagenyTitulo .Caja1-Titulo {
+    position: absolute;
+    margin-top: 25vw;
+    background-color: black;
+    padding: 10px;
+  }
+  .Encabezado-P1 .Caja1-ImagenyTitulo .Caja1-Titulo h1 {
+    font-size: 4.5vw;
+    color: white;
+    text-transform: uppercase;
+  }
+  .Encabezado-P1 .Caja1-SubtituloyDescripción {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Encabezado-P1 .Caja1-SubtituloyDescripción .Caja1-Subtitulo {
+    padding: 10px;
+  }
+  .Encabezado-P1 .Caja1-SubtituloyDescripción .Caja1-Subtitulo b {
+    font-size: 2.5vw;
+  }
+  .Encabezado-P1 .Caja1-SubtituloyDescripción .Caja1-Descripción {
+    padding: 10px;
+  }
+  .Encabezado-P1 .Caja1-SubtituloyDescripción .Caja1-Descripción em {
+    font-size: 2.5vw;
+  }
+  /* Menu - <main> */
+  .Menu-P1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Menu-P1 .Caja2-ImagenyTitulo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Menu-P1 .Caja2-ImagenyTitulo .Caja2-Imagen {
+    width: 100vw;
+  }
+  .Menu-P1 .Caja2-ImagenyTitulo .Caja2-Imagen img {
+    height: 60vw;
+    width: 100vw;
+  }
+  .Menu-P1 .Caja2-ImagenyTitulo .Caja2-Titulo {
+    position: absolute;
+    margin-top: 20vw;
+    padding: 10px;
+  }
+  .Menu-P1 .Caja2-ImagenyTitulo .Caja2-Titulo h1 {
+    font-size: 4.5vw;
+    color: white;
+    text-transform: uppercase;
+  }
+  .Menu-P1 .Caja2-SubtituloyDescripción {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Menu-P1 .Caja2-SubtituloyDescripción .Caja2-Subtitulo {
+    padding: 10px;
+  }
+  .Menu-P1 .Caja2-SubtituloyDescripción .Caja2-Subtitulo b {
+    font-size: 2.5vw;
+  }
+  .Menu-P1 .Caja2-SubtituloyDescripción .Caja2-Descripción {
+    padding: 10px;
+  }
+  .Menu-P1 .Caja2-SubtituloyDescripción .Caja2-Descripción em {
+    font-size: 2.5vw;
+  }
+  .Menu-P1 .Caja3-ImagenyTitulo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Menu-P1 .Caja3-ImagenyTitulo .Caja3-Imagen {
+    width: 100vw;
+  }
+  .Menu-P1 .Caja3-ImagenyTitulo .Caja3-Imagen img {
+    height: 60vw;
+    width: 100vw;
+  }
+  .Menu-P1 .Caja3-ImagenyTitulo .Caja3-Titulo {
+    position: absolute;
+    margin-top: 23vw;
+    padding: 10px;
+  }
+  .Menu-P1 .Caja3-ImagenyTitulo .Caja3-Titulo h1 {
+    font-size: 4vw;
+    color: white;
+    text-transform: uppercase;
+  }
+  .Menu-P1 .Caja3-SubtituloyDescripción {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Menu-P1 .Caja3-SubtituloyDescripción .Caja3-Subtitulo {
+    padding: 10px;
+  }
+  .Menu-P1 .Caja3-SubtituloyDescripción .Caja3-Subtitulo b {
+    font-size: 2.5vw;
+  }
+  .Menu-P1 .Caja3-SubtituloyDescripción .Caja3-Descripción {
+    padding: 10px;
+  }
+  .Menu-P1 .Caja3-SubtituloyDescripción .Caja3-Descripción em {
+    font-size: 2.5vw;
+  }
+  .Menu-P1 .Caja4-ImagenyTitulo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Menu-P1 .Caja4-ImagenyTitulo .Caja4-Imagen {
+    width: 100vw;
+  }
+  .Menu-P1 .Caja4-ImagenyTitulo .Caja4-Imagen img {
+    height: 60vw;
+    width: 100vw;
+  }
+  .Menu-P1 .Caja4-ImagenyTitulo .Caja4-Titulo {
+    position: absolute;
+    margin-top: 25vw;
+    background-color: black;
+    padding: 10px;
+  }
+  .Menu-P1 .Caja4-ImagenyTitulo .Caja4-Titulo h1 {
+    font-size: 4.5vw;
+    color: white;
+    text-transform: uppercase;
+  }
+  /* Pie de Página - <footer> */
+  .PieDePágina-Contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    padding: 20px;
+  }
+  .PieDePágina-Contacto .RedesSociales-Texto {
+    padding: 20px;
+  }
+  .PieDePágina-Contacto .RedesSociales-Texto small {
+    font-size: 3vw;
+    color: white;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .LinkedIn-RS {
+    background-color: white;
+    padding: 2vw;
+    border-radius: 75vw;
+    border: 0.7vw solid aqua;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .LinkedIn-RS img {
+    height: 8vw;
+    width: 8vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .LinkedIn-RS img:hover {
+    transform: scale(1.2);
+    transition: 2s;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .LinkedIn-RS:hover {
+    background-color: aqua;
+    transition: 2s;
+    border-radius: 75vw;
+    border: 0.7vw solid white;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .GitHub-RS {
+    background-color: white;
+    padding: 2vw;
+    border-radius: 75vw;
+    border: 0.7vw solid gray;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .GitHub-RS img {
+    height: 8vw;
+    width: 8vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .GitHub-RS img:hover {
+    transform: scale(1.2);
+    transition: 2s;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .GitHub-RS:hover {
+    background-color: gray;
+    transition: 2s;
+    border-radius: 75vw;
+    border: 0.7vw solid white;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Twitter-RS {
+    background-color: white;
+    padding: 2vw;
+    border-radius: 75vw;
+    border: 0.7vw solid blue;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Twitter-RS img {
+    height: 8vw;
+    width: 8vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Twitter-RS img:hover {
+    transform: scale(1.2);
+    transition: 2s;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Twitter-RS:hover {
+    background-color: blue;
+    transition: 2s;
+    border-radius: 75vw;
+    border: 0.7vw solid white;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Gmail-RS {
+    background-color: white;
+    padding: 2vw;
+    border-radius: 75vw;
+    border: 0.7vw solid orange;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Gmail-RS img {
+    height: 8vw;
+    width: 8vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Gmail-RS img:hover {
+    transform: scale(1.2);
+    transition: 2s;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imagenes .Gmail-RS:hover {
+    background-color: orange;
+    transition: 2s;
+    border-radius: 75vw;
+    border: 0.7vw solid white;
+  }
+}
+
+/*# sourceMappingURL=Proyecto1.css.map */

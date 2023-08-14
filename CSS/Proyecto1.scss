@@ -1,0 +1,1028 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: monospace;
+}
+
+/* Responsive Design */
+
+@media(max-width: 575px){
+
+    .Encabezado-P1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .Caja1-ImagenyTitulo{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .Caja1-Imagen{
+                width: 100vw;
+
+                img{
+                    height: 60vw;
+                    width: 100vw;
+                }
+
+            }
+
+            .Caja1-Titulo{
+                position: absolute;
+                margin-top: 25vw;
+                background-color: black;
+                padding: 1.5vw;
+
+                h1{
+                    font-size: 4.5vw;
+                    color: white;
+                    text-transform: uppercase;
+                }
+
+            }
+
+        }
+
+        .Caja1-SubtituloyDescripción{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .Caja1-Subtitulo{
+                padding: 1.5vw;
+
+                b{
+                    font-size: 4.5vw;
+                }
+
+            }
+
+            .Caja1-Descripción{
+                padding: 1.5vw;
+
+                em{
+                    font-size: 4.5vw;
+                }
+
+            }
+
+        }
+
+    }
+
+    .Menu-P1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .Caja2-ImagenyTitulo{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .Caja2-Imagen{
+                width: 100vw;
+
+                img{
+                    height: 60vw;
+                    width: 100vw;
+                }
+
+            }
+
+            .Caja2-Titulo{
+                position: absolute;
+                margin-top: 20vw;
+                padding: 1.5vw;
+
+                h1{
+                    font-size: 4.5vw;
+                    color: white;
+                    text-transform: uppercase;
+                }
+
+            }
+
+        }
+
+        .Caja2-SubtituloyDescripción{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .Caja2-Subtitulo{
+                padding: 1.5vw;
+
+                b{
+                    font-size: 4.5vw;
+                }
+
+            }
+
+            .Caja2-Descripción{
+                padding: 1.5vw;
+
+                em{
+                    font-size: 4.5vw;
+                }
+
+            }
+
+        }
+
+        .Caja3-ImagenyTitulo{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .Caja3-Imagen{
+                width: 100vw;
+
+                img{
+                    height: 60vw;
+                    width: 100vw;
+                }
+
+            }
+
+            .Caja3-Titulo{
+                position: absolute;
+                margin-top: 23vw;
+                padding: 1.5vw;
+
+                h1{
+                    font-size: 4.5vw;
+                    color: white;
+                    text-transform: uppercase;
+                }
+
+            }
+
+        }
+
+        .Caja3-SubtituloyDescripción{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .Caja3-Subtitulo{
+                padding: 1.5vw;
+
+                b{
+                    font-size: 4.5vw;
+                }
+
+            }
+
+            .Caja3-Descripción{
+                padding: 1.5vw;
+
+                em{
+                    font-size: 4.5vw;
+                }
+
+            }
+
+        }
+
+        .Caja4-ImagenyTitulo{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .Caja4-Imagen{
+                width: 100vw;
+
+                img{
+                    height: 60vw;
+                    width: 100vw;
+                }
+
+            }
+
+            .Caja4-Titulo{
+                position: absolute;
+                margin-top: 30vw;
+                background-color: black;
+                padding: 1.5vw;
+
+                h1{
+                    font-size: 4.5vw;
+                    color: white;
+                    text-transform: uppercase;
+                }
+
+            }
+
+        }
+
+    }
+
+    .PieDePágina-Contacto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: black;
+        padding: 5vw;
+
+        .RedesSociales-Texto{
+            padding: 2.5vw;
+
+            small{
+                font-size: 5.5vw;
+                color: white;
+            }
+
+        }
+
+        .RedesSociales-Imagenes{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 2.5vw;
+
+            .LinkedIn-RS{
+                background-color: white;
+                padding: 2.5vw;
+                border-radius: 50vw;
+                border: 1.5vw solid aqua;
+
+                img{
+                    height: 10vw;
+                    width: 10vw;
+                }
+
+            }
+
+            .LinkedIn-RS:hover{
+                background-color: aqua;
+                transition: 2s;
+                border-radius: 50vw;
+                border: 1.5vw solid white;
+            }
+
+            .GitHub-RS{
+                background-color: white;
+                padding: 2.5vw;
+                border-radius: 50vw;
+                border: 1.5vw solid gray;
+
+                img{
+                    height: 10vw;
+                    width: 10vw;
+                }
+
+            }
+
+            .GitHub-RS:hover{
+                background-color: gray;
+                transition: 2s;
+                border-radius: 50vw;
+                border: 1.5vw solid white;
+            }
+
+            .Twitter-RS{
+                background-color: white;
+                padding: 2.5vw;
+                border-radius: 50vw;
+                border: 1.5vw solid blue;
+
+                img{
+                    height: 10vw;
+                    width: 10vw;
+                }
+
+            }
+
+            .Twitter-RS:hover{
+                background-color: blue;
+                transition: 2s;
+                border-radius: 50vw;
+                border: 1.5vw solid white;
+            }
+
+            .Gmail-RS{
+                background-color: white;
+                padding: 2.5vw;
+                border-radius: 50vw;
+                border: 1.5vw solid orange;
+
+                img{
+                    height: 10vw;
+                    width: 10vw;
+                }
+
+            }
+
+            .Gmail-RS:hover{
+                background-color: orange;
+                transition: 2s;
+                border-radius: 50vw;
+                border: 1.5vw solid white;
+            }
+
+        }
+
+    }
+
+}
+
+@media(min-width: 576px) and (max-width: 768px){
+
+    .Encabezado-P1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .Caja1-ImagenyTitulo{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .Caja1-Imagen{
+                width: 100vw;
+
+                img{
+                    height: 60vw;
+                    width: 100vw;
+                }
+
+            }
+
+            .Caja1-Titulo{
+                position: absolute;
+                margin-top: 25vw;
+                background-color: black;
+                padding: 10px;
+
+                h1{
+                    font-size: 4.5vw;
+                    color: white;
+                    text-transform: uppercase;
+                }
+
+            }
+
+        }
+
+        .Caja1-SubtituloyDescripción{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .Caja1-Subtitulo{
+                padding: 10px;
+
+                b{
+                    font-size: 2.5vw;
+                }
+
+            }
+
+            .Caja1-Descripción{
+                padding: 10px;
+
+                em{
+                    font-size: 2.5vw;
+                }
+
+            }
+
+        }
+
+    }
+
+    .Menu-P1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .Caja2-ImagenyTitulo{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .Caja2-Imagen{
+                width: 100vw;
+
+                img{
+                    height: 60vw;
+                    width: 100vw;
+                }
+
+            }
+
+            .Caja2-Titulo{
+                position: absolute;
+                margin-top: 20vw;
+                padding: 10px;
+
+                h1{
+                    font-size: 4.5vw;
+                    color: white;
+                    text-transform: uppercase;
+                }
+
+            }
+
+        }
+
+        .Caja2-SubtituloyDescripción{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .Caja2-Subtitulo{
+                padding: 10px;
+
+                b{
+                    font-size: 2.5vw;
+                }
+
+            }
+
+            .Caja2-Descripción{
+                padding: 10px;
+
+                em{
+                    font-size: 2.5vw;
+                }
+
+            }
+
+        }
+
+        .Caja3-ImagenyTitulo{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .Caja3-Imagen{
+                width: 100vw;
+
+                img{
+                    height: 60vw;
+                    width: 100vw;
+                }
+
+            }
+
+            .Caja3-Titulo{
+                position: absolute;
+                margin-top: 23vw;
+                padding: 10px;
+
+                h1{
+                    font-size: 4.5vw;
+                    color: white;
+                    text-transform: uppercase;
+                }
+
+            }
+
+        }
+
+        .Caja3-SubtituloyDescripción{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .Caja3-Subtitulo{
+                padding: 10px;
+
+                b{
+                    font-size: 2.5vw;
+                }
+
+            }
+
+            .Caja3-Descripción{
+                padding: 7px;
+
+                em{
+                    font-size: 2.5vw;
+                }
+
+            }
+
+        }
+
+        .Caja4-ImagenyTitulo{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .Caja4-Imagen{
+                width: 100vw;
+
+                img{
+                    height: 60vw;
+                    width: 100vw;
+                }
+
+            }
+
+            .Caja4-Titulo{
+                position: absolute;
+                margin-top: 30vw;
+                background-color: black;
+                padding: 10px;
+
+                h1{
+                    font-size: 4.5vw;
+                    color: white;
+                    text-transform: uppercase;
+                }
+
+            }
+
+        }
+
+    }
+
+    .PieDePágina-Contacto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: black;
+        padding: 10px;
+
+        .RedesSociales-Texto{
+            padding: 10px;
+
+            small{
+                font-size: 25px;
+                color: white;
+            }
+
+        }
+
+        .RedesSociales-Imagenes{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+
+            .LinkedIn-RS{
+                background-color: white;
+                padding: 10px;
+                border-radius: 75px;
+                border: 5px solid aqua;
+
+                img{
+                    height: 50px;
+                    width: 50px;
+                }
+
+                img:hover{
+                    transform: scale(1.1);
+                    transition: 2s;
+                }
+
+            }
+
+            .LinkedIn-RS:hover{
+                background-color: aqua;
+                transition: 2s;
+                border-radius: 75px;
+                border: 5px solid white;
+            }
+
+            .GitHub-RS{
+                background-color: white;
+                padding: 10px;
+                border-radius: 75px;
+                border: 5px solid gray;
+
+                img{
+                    height: 50px;
+                    width: 50px;
+                }
+
+                img:hover{
+                    transform: scale(1.1);
+                    transition: 2s;
+                }
+
+            }
+
+            .GitHub-RS:hover{
+                background-color: gray;
+                transition: 2s;
+                border-radius: 75px;
+                border: 5px solid white;
+            }
+
+            .Twitter-RS{
+                background-color: white;
+                padding: 10px;
+                border-radius: 75px;
+                border: 5px solid blue;
+
+                img{
+                    height: 50px;
+                    width: 50px;
+                }
+
+                img:hover{
+                    transform: scale(1.1);
+                    transition: 2s;
+                }
+
+            }
+
+            .Twitter-RS:hover{
+                background-color: blue;
+                transition: 2s;
+                border-radius: 75px;
+                border: 5px solid white;
+            }
+
+            .Gmail-RS{
+                background-color: white;
+                padding: 10px;
+                border-radius: 75px;
+                border: 5px solid orange;
+
+                img{
+                    height: 50px;
+                    width: 50px;
+                }
+
+                img:hover{
+                    transform: scale(1.1);
+                    transition: 2s;
+                }
+
+            }
+
+            .Gmail-RS:hover{
+                background-color: orange;
+                transition: 2s;
+                border-radius: 75px;
+                border: 5px solid white;
+            }
+
+        }
+
+    }
+
+}
+
+@media(min-width: 769px){
+
+    .Encabezado-P1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .Caja1-ImagenyTitulo{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .Caja1-Imagen{
+                width: 100vw;
+
+                img{
+                    height: 60vw;
+                    width: 100vw;
+                }
+
+            }
+
+            .Caja1-Titulo{
+                position: absolute;
+                margin-top: 25vw;
+                background-color: black;
+                padding: 10px;
+
+                h1{
+                    font-size: 4.5vw;
+                    color: white;
+                    text-transform: uppercase;
+                }
+
+            }
+
+        }
+
+        .Caja1-SubtituloyDescripción{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .Caja1-Subtitulo{
+                padding: 10px;
+
+                b{
+                    font-size: 2.5vw;
+                }
+
+            }
+
+            .Caja1-Descripción{
+                padding: 10px;
+
+                em{
+                    font-size: 2.5vw;
+                }
+
+            }
+
+        }
+
+    }
+
+    /* Menu - <main> */
+
+    .Menu-P1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .Caja2-ImagenyTitulo{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .Caja2-Imagen{
+                width: 100vw;
+
+                img{
+                    height: 60vw;
+                    width: 100vw;
+                }
+
+            }
+
+            .Caja2-Titulo{
+                position: absolute;
+                margin-top: 20vw;
+                padding: 10px;
+
+                h1{
+                    font-size: 4.5vw;
+                    color: white;
+                    text-transform: uppercase;
+                }
+
+            }
+
+        }
+
+        .Caja2-SubtituloyDescripción{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .Caja2-Subtitulo{
+                padding: 10px;
+
+                b{
+                    font-size: 2.5vw;
+                }
+
+            }
+
+            .Caja2-Descripción{
+                padding: 10px;
+
+                em{
+                    font-size: 2.5vw;
+                }
+
+            }
+
+        }
+
+        .Caja3-ImagenyTitulo{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .Caja3-Imagen{
+                width: 100vw;
+
+                img{
+                    height: 60vw;
+                    width: 100vw;
+                }
+
+            }
+
+            .Caja3-Titulo{
+                position: absolute;
+                margin-top: 23vw;
+                padding: 10px;
+
+                h1{
+                    font-size: 4vw;
+                    color: white;
+                    text-transform: uppercase;
+                }
+
+            }
+
+        }
+
+        .Caja3-SubtituloyDescripción{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .Caja3-Subtitulo{
+                padding: 10px;
+
+                b{
+                    font-size: 2.5vw;
+                }
+
+            }
+
+            .Caja3-Descripción{
+                padding: 10px;
+
+                em{
+                    font-size: 2.5vw;
+                }
+
+            }
+
+        }
+
+        .Caja4-ImagenyTitulo{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .Caja4-Imagen{
+                width: 100vw;
+
+                img{
+                    height: 60vw;
+                    width: 100vw;
+                }
+
+            }
+
+            .Caja4-Titulo{
+                position: absolute;
+                margin-top: 25vw;
+                background-color: black;
+                padding: 10px;
+
+                h1{
+                    font-size: 4.5vw;
+                    color: white;
+                    text-transform: uppercase;
+                }
+
+            }
+
+        }
+
+    }
+
+    /* Pie de Página - <footer> */
+
+    .PieDePágina-Contacto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: black;
+        padding: 20px;
+
+        .RedesSociales-Texto{
+            padding: 20px;
+
+            small{
+                font-size: 3vw;
+                color: white;
+            }
+
+        }
+
+        .RedesSociales-Imagenes{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .LinkedIn-RS{
+                background-color: white;
+                padding: 2vw;
+                border-radius: 75vw;
+                border: 0.7vw solid aqua;
+
+                img{
+                    height: 8vw;
+                    width: 8vw;
+                }
+
+                img:hover{
+                    transform: scale(1.2);
+                    transition: 2s;
+                }
+
+            }
+
+            .LinkedIn-RS:hover{
+                background-color: aqua;
+                transition: 2s;
+                border-radius: 75vw;
+                border: 0.7vw solid white;
+            }
+
+            .GitHub-RS{
+                background-color: white;
+                padding: 2vw;
+                border-radius: 75vw;
+                border: 0.7vw solid gray;
+
+                img{
+                    height: 8vw;
+                    width: 8vw;
+                }
+
+                img:hover{
+                    transform: scale(1.2);
+                    transition: 2s;
+                }
+
+            }
+
+            .GitHub-RS:hover{
+                background-color: gray;
+                transition: 2s;
+                border-radius: 75vw;
+                border: 0.7vw solid white;
+            }
+
+            .Twitter-RS{
+                background-color: white;
+                padding: 2vw;
+                border-radius: 75vw;
+                border: 0.7vw solid blue;
+
+                img{
+                    height: 8vw;
+                    width: 8vw;
+                }
+
+                img:hover{
+                    transform: scale(1.2);
+                    transition: 2s;
+                }
+
+            }
+
+            .Twitter-RS:hover{
+                background-color: blue;
+                transition: 2s;
+                border-radius: 75vw;
+                border: 0.7vw solid white;
+            }
+
+            .Gmail-RS{
+                background-color: white;
+                padding: 2vw;
+                border-radius: 75vw;
+                border: 0.7vw solid orange;
+
+                img{
+                    height: 8vw;
+                    width: 8vw;
+                }
+
+                img:hover{
+                    transform: scale(1.2);
+                    transition: 2s;
+                }
+
+            }
+
+            .Gmail-RS:hover{
+                background-color: orange;
+                transition: 2s;
+                border-radius: 75vw;
+                border: 0.7vw solid white;
+            }
+
+        }
+
+    }
+
+}
